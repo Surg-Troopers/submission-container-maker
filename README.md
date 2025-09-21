@@ -9,5 +9,8 @@ The model parameters have been saved inside the folder 'model/'.
 
 In the `inference.py` file, a new frame extraction function and output formatter have been used to extract the frames from video and provide the output in a json file for the challenge submission.
 
+For training YOLO model, please visit https://github.com/Surg-Troopers/yolo
+For utility repo: extracting frames from video, one-hot labels, and many other tools. Please visit https://github.com/Surg-Troopers/encodinator
+
 > [!NOTE]
 > Please uncomment the command to fetch resources in `.gitattributes` before running the `./do_save.sh` to build the container. Also please remember to add the required files to the resources/ folder.
